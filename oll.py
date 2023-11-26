@@ -1,0 +1,12 @@
+class Item:
+
+    def __init__(self, name, price, quantity):
+        self.name = name
+        self.price = price
+        self.quantity = quantity
+
+    def save_to_db(self):
+        pass  
+
+    def delete_from_db(self):
+        pass  
